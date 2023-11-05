@@ -1,24 +1,26 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.cb73519e.css",
-    "main.js": "/portfolio/static/js/main.83086ad6.js",
+    "main.css": "/portfolio/static/css/main.5757b499.css",
+    "main.js": "/portfolio/static/js/main.53a23924.js",
     "static/js/787.24e06b88.chunk.js": "/portfolio/static/js/787.24e06b88.chunk.js",
     "static/media/Port1.png": "/portfolio/static/media/Port1.ae8392c256fb1f7688a1.png",
     "static/media/Port3.png": "/portfolio/static/media/Port3.0b14c7405978b5bc2305.png",
     "static/media/Port5.png": "/portfolio/static/media/Port5.673b3000a36a0c72effa.png",
+    "static/media/Port7.png": "/portfolio/static/media/Port7.e1d472a1b5962bcbe610.png",
     "static/media/Port6.png": "/portfolio/static/media/Port6.09a60bb65826a3f88184.png",
     "static/media/Port2.png": "/portfolio/static/media/Port2.e8a74d0a7246736e2596.png",
     "static/media/Port4.png": "/portfolio/static/media/Port4.8ec32d6c5f472a5e6fb2.png",
     "static/media/Vishwajit_CV.pdf": "/portfolio/static/media/Vishwajit_CV.067e42dddbe7fe9e5e72.pdf",
     "static/media/Profile1.png": "/portfolio/static/media/Profile1.3e9df6151f7678817d69.png",
     "static/media/Profile2.png": "/portfolio/static/media/Profile2.809a2aa8477b4bcf5c8a.png",
+    "static/media/Port8.png": "/portfolio/static/media/Port8.51278fef14fab516d07c.png",
     "index.html": "/portfolio/index.html",
-    "main.cb73519e.css.map": "/portfolio/static/css/main.cb73519e.css.map",
-    "main.83086ad6.js.map": "/portfolio/static/js/main.83086ad6.js.map",
+    "main.5757b499.css.map": "/portfolio/static/css/main.5757b499.css.map",
+    "main.53a23924.js.map": "/portfolio/static/js/main.53a23924.js.map",
     "787.24e06b88.chunk.js.map": "/portfolio/static/js/787.24e06b88.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.cb73519e.css",
-    "static/js/main.83086ad6.js"
+    "static/css/main.5757b499.css",
+    "static/js/main.53a23924.js"
   ]
 }
