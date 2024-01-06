@@ -1,0 +1,56 @@
+.contact{
+    width: 60%;
+    margin: 0px auto;
+    display: flex;
+    flex-direction: column;
+}
+.contact-top{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 7px;
+}
+.contact-top p{
+    font-size: 1rem;
+}
+
+.contact-details{
+    width: 100%;
+    height: 55vh;
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 4%;
+}
+.contact-details input{
+    width: 48%;
+    height: 30px;
+    padding-left: 5px;
+}
+.contact-details textarea{
+    width: 100%;
+    padding: 10px 5px;
+}
+.aside-hirebtn2{
+    padding: 6px 15px;
+    height: 30px;
+}
+
+@media screen and (max-width: 1000px){
+    .contact-details{
+        height: auto;
+    }
+}
+
+
+@media screen and (max-width: 600px){
+    .contact{
+        width: 80%;
+    }
+    .aside-hirebtn2{
+        padding: 6px 15px;
+        height: 35px;
+    }
+}

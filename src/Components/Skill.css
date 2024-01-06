@@ -1,0 +1,48 @@
+.skills{
+    width: 100%;
+}
+.skills-top{
+    width: 70%;
+    height: 50px;
+    margin: 0px auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: space-around;
+}
+.skills-top p{
+    font-size: 1rem;
+}
+
+.skills-bot{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 50px;
+    margin-top: 50px;
+}
+.skills-bot>div{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.skills-bot i{
+    font-size: 12rem;
+    background-image: linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%);
+    color: rgb(238, 255, 0);
+    border-radius: 20px;
+    transition: 2s;
+}
+.skills-bot p{
+    text-align: center;
+    font-family: 'Bungee Spice', sans-serif;
+}
+.skills-bot i:hover{
+    border-radius: 100%;
+    padding: 20px;
+    color: rgb(0, 255, 217);
+    background: linear-gradient(273.09deg, #1c2323 -11.03%, #1d8ba7 100%);
+
+}

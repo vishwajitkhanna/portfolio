@@ -1,0 +1,28 @@
+.resume{
+    width: 100%;
+}
+.resume-top{
+    width: 70%;
+    height: 75px;
+    margin: 0px auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: space-around;
+}
+
+.resume-bot{
+    width: 100%;
+    margin-top: 20px;
+}
+
+@media screen and (max-width: 600px) {
+    .resume{
+        width: 100%;
+        overflow-x: auto;
+    }
+    .resume-top,.resume-bot{
+        width: 100%;
+    }
+}

@@ -1,0 +1,149 @@
+.bio{
+    width: 100%;
+}
+.bio-top{
+    width: 100%;
+    height: 40vh;
+    display: flex;
+    gap: 30px;
+}
+.bio-left-con{
+    width: 65%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.bio-right-con{
+    width: 35%;
+    height: 100%;
+}
+.bio-left-con h1{
+    font-family: 'Kaushan Script', cursive;
+}
+
+.bio-title {
+    height: 25px;
+    overflow: hidden;
+}
+
+.bio-title-wrapper {
+    height: 100%;
+    animation: move 10s ease-in-out infinite alternate;
+}
+
+@keyframes move {
+    50% {
+        transform: translateY(-25px);
+    }
+
+    100% {
+        transform: translateY(-50px);
+    }
+}
+
+.bio-title-item {
+    height: 25px;
+    font-size: 1.1rem;
+    font-family: 'Bungee Spice', sans-serif;
+    display: flex;
+    align-items: center;
+
+}
+
+.bio-details{
+    font-size: 1.1rem;
+    font-family: 'Foldit', sans-serif;
+    margin-top: 5px;
+    letter-spacing: 0.5px;
+}
+
+.bio-buttons{
+    display: flex;
+    gap: 15px;
+}
+.bio button{
+    padding: 7px 18px;
+    border: 0px;
+    border-radius: 5px;
+}
+button .fa-regular{
+    margin-right: 5px;
+}
+
+.bio-dp{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+.bio-dp img{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+
+.bio-bot{
+    width: 100%;
+}
+.bio-bot h3{
+    border-left: 4px solid #59b256;
+    padding-left: 10px;
+}
+.bio-bot p{
+    font-size: rem;
+}
+.bio-bot p a{
+    text-decoration: none;
+    color: #59b256;
+}
+
+@media screen and (max-width: 1000px) {
+    .bio-top{
+        width: 80%;
+        height: auto;
+        margin-left: 5%;
+        position: relative;
+    }
+    .bio-dp{
+        width: 250px;
+        height: auto;
+    }
+    .bio-bot{
+        width: 95%;
+        margin: 20px auto;
+    }
+}
+
+
+@media screen and (max-width: 500px) {
+    .bio-top{
+        width: 80%;
+        height: auto;
+        margin-left: 5%;
+        position: relative;
+    }
+    .bio-details{
+        position: absolute;
+        top: 85%;
+    }
+    .bio-dp{
+        width: 100px;
+        height: 115px;
+    }
+    .bio-buttons{
+        position: relative;
+        top: 85%;
+    }
+    .bio-bot{
+        position: relative;
+        top: 180px;
+        height: 350px;
+        width: 95%;
+        margin: auto;
+    }
+    .about-hirebtn{
+        width: 500px;
+        height: auto;
+        font-size: 0.7rem;
+        margin: 0px 0px 15px;
+    }
+}

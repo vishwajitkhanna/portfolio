@@ -1,0 +1,205 @@
+.aside{
+    width: 18.5%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    padding: 20px 15px 40px;
+    justify-content: space-between;
+    background: linear-gradient(273.09deg, #1c2323 -11.03%, #1d8ba7 100%);
+    /* background: linear-gradient(273.09deg, #1c2323 -11.03%, #1da797 100%); */
+}
+.aside1{
+    width: 18.5%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: rgb(0, 0, 0);
+    padding: 20px 15px 40px;
+    justify-content: space-between;
+    background: linear-gradient(273.09deg, #1c2323 -11.03%, #1d9f90 100%);
+}
+.aside-top{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+.aside-dp{
+    width: 115px;
+    height: 115px;
+    border-radius: 50%;
+}
+.aside-dp img{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+.aside-top>p{
+    font-size: 0.85rem;
+    text-align: center;
+}
+.aside-a{
+    display: flex;
+    gap: 10px;
+}
+.aside-a a{
+    padding: 1px 4px 2px;
+    background: linear-gradient(273.09deg, #003a4d -11.03%, #15443f 100%);
+    border-radius: 50%;
+}
+.aside-a i{
+    font-size: 1.2rem;
+    color: #00ffee;
+}
+.aside-a i:hover{
+    transition: 1s;
+    transform: rotate(360deg);
+}
+.aside-a .fa-facebook-f{
+    padding: 1px 3px 2px;
+}
+
+.aside-link{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.aside-link a{
+    text-decoration: none;
+    color: white;
+}
+.aside-link div{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 1.1rem;
+}
+.aside-link i{
+    font-size: 0.9rem;
+}
+.aside-link div:hover i{
+    transition: 1s;
+    transform: rotate(360deg);
+}
+button:hover i{
+    transition: 1s;
+    transform: rotate(360deg);
+}
+.aside-hirebtn{
+    padding: 6px 15px;
+    border: 0px;
+    border-radius: 4px;
+    background: linear-gradient(273.09deg, #000000 -11.03%, #426f6f 100%);
+    box-shadow: inset 4px 8px 16px rgba(0, 255, 98, 0.25), inset -8px -8px 12px rgba(176, 201, 9, 0.4), inset 4px 4px 24px rgba(4, 212, 4, 0.25);
+    color: white;
+    margin: 15px 0px 15px;
+    cursor: pointer;
+}
+.aside-hirebtn i{
+    margin-right: 4px;
+}
+.aside-hirebtn a{
+    text-decoration: none;
+    color: white;
+}
+
+.aside-togg-l{
+    border: 2px solid rgb(198, 198, 198);
+    width: 37px;
+    height: 15px;
+    border-radius: 20px;
+    position: relative;
+    background-color: azure;
+    transition: 0.1s;
+    cursor: pointer;
+}
+.aside-togg-r{
+    border: 2px solid rgb(40, 40, 40);
+    width: 37px;
+    height: 15px;
+    border-radius: 20px;
+    position: relative;
+    background-color: rgb(0, 0, 0);
+    transition: 0.1s;
+    cursor: pointer;
+}
+.toggbar-l{
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    top: -60%;
+    left: -25%;
+    border-radius: 50%;
+    background-image: url("https://png.pngtree.com/png-vector/20201130/ourmid/pngtree-sun-png-clipart-colored-png-image_2490377.png");
+    background-size: cover;
+    transition: 0.1s;
+}
+.toggbar-r{
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    top: -60%;
+    right: -25%;
+    border-radius: 50%;
+    background-image: url("https://w7.pngwing.com/pngs/135/906/png-transparent-lunar-phase-computer-icons-full-moon-blue-half-moon-blue-meteorology-moon-thumbnail.png");
+    background-size: cover;
+    transition: 0.1s;
+}
+
+.aside-center{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.aside-bot{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    font-size: 1.05rem;
+}
+.aside-bot>div>i{
+    margin-right: 8px;
+}
+
+
+
+@media screen and (max-width: 1000px){
+    .aside,.aside1{
+        width: 100%;
+        height: auto;
+    }
+    .aside-link{
+        display: flex;
+        flex-direction: row;
+        gap: 25px;
+    }
+    .aside-link div{
+        gap: 2px;
+        background-color: #206b7d;
+        padding: 2px 5px;
+        border-radius: 5px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .aside,.aside1{
+        width: 100%;
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        gap: 25px;
+    }
+    .aside-link{
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+    }
+}
